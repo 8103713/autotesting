@@ -29,14 +29,14 @@ def new_card():
 
 # TODO(johney) 格式化显示问题未做
 def show_card():
-	val = []
+	#val = []
 	print("显示所有名片")
 	print(tplt.format("姓名","年龄","性别",chr(12288)))
 	for info in card_list:
-		a = [value for key,value in info.items()]
-		val.append(a)
-		#print("".join(val), end="\t" * 2)
-	print(tplt.format(val[0],val[1],val[2],chr(12288)))
+		val = [value for key,value in info.items()]
+		#val.append(a)
+	    print("".join(val), end="\t" * 2)
+	#print(tplt.format(val[0],val[1],val[2],chr(12288)))
 
 
 
