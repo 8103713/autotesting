@@ -1,0 +1,25 @@
+[phone_no.data]
+    [号码类型(no_type)]
+        手机号码:1
+        接入号码:2
+        证件号码:3
+        集团编码:4
+        集团服务号码:5
+        全网编码:6
+
+[cust_info.data]
+    [证件类型(id_card_type)]
+        <option value="01">居民身份证</option>
+        <option value="02">户口簿</option>
+        <option value="05">港澳居民通行证</option>
+        <option value="06">台湾居民通行证</option>
+        <option value="07">外国公民护照</option>
+        <option value="31">军人身份证</option>
+        <option value="18">外国人身份证</option>
+        <option value="20">港澳台居民居住证</option>
+        <option value="08">营业执照号码</option>
+        <option value="09">组织机构代码证</option>
+        <option value="10">事业单位法人证书</option>
+        <option value="11">社会团体法人证书</option>
+        <option value="30">单位证明</option>
+        <option value="33">社会统一信用代码证件</option>

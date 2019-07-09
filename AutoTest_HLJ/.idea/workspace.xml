@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9008485-a183-4854-ac06-9c73885453cb" name="Default" comment="" />
+    <ignored path="auto_dabanben.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/autoTesting$Unittest_checkGroupCustInfo.coverage" NAME="Unittest checkGroupCustInfo Coverage Results" MODIFIED="1550668373910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0030_WYNFYKX_test_py.coverage" NAME="Unittests in aut_test_0030_WYNFYKX_test.py Coverage Results" MODIFIED="1546587398601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0024_201XYKDZH_test_py.coverage" NAME="Unittests in aut_test_0024_201XYKDZH_test.py Coverage Results" MODIFIED="1546581092913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$BJL129.coverage" NAME="BJL129 Coverage Results" MODIFIED="1547019867845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$GKDLLW.coverage" NAME="GKDLLW Coverage Results" MODIFIED="1548060062122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$YKX.coverage" NAME="YKX Coverage Results" MODIFIED="1547192703174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0028_DLSXGQX_test_py.coverage" NAME="Unittests in aut_test_0028_DLSXGQX_test.py Coverage Results" MODIFIED="1546583611128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0036_38_FZPTJTZW.coverage" NAME="aut_test_0036-38_FZPTJTZW Coverage Results" MODIFIED="1545723944319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0028_DLSXGQX.coverage" NAME="aut_test_0028_DLSXGQX Coverage Results" MODIFIED="1547442926025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$YQXW.coverage" NAME="YQXW Coverage Results" MODIFIED="1547101065791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$DKD.coverage" NAME="DKD Coverage Results" MODIFIED="1547110130014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_for_aut_test_0005_DKD_test_DKD_test.coverage" NAME="Unittests for aut_test_0005_DKD_test.DKD_test Coverage Results" MODIFIED="1547632308550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$test_environment.coverage" NAME="test_environment Coverage Results" MODIFIED="1550668704252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoTesting$ZQCP.coverage" NAME="ZQCP Coverage Results" MODIFIED="1547189763237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0016_xxiptv_ess.coverage" NAME="aut_test_0016_xxiptv_ess Coverage Results" MODIFIED="1550668495327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1547781277202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittest_BJL_chooseAffiliatedCard.coverage" NAME="Unittest BJL.chooseAffiliatedCard Coverage Results" MODIFIED="1550668237658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_for_aut_test_0007_QJFFXZXX_test_KDRH_test.coverage" NAME="Unittests for aut_test_0007_QJFFXZXX_test.KDRH_test Coverage Results" MODIFIED="1547629697934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0022_YKX_oldcust_test_py.coverage" NAME="Unittests in aut_test_0022_YKX_oldcust_test.py Coverage Results" MODIFIED="1547105099972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0033_BJLZFK.coverage" NAME="aut_test_0033_BJLZFK Coverage Results" MODIFIED="1548829157671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0027_fxXy201.coverage" NAME="aut_test_0027_fxXy201 Coverage Results" MODIFIED="1547544748988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0005_DKD_test_py.coverage" NAME="Unittests in aut_test_0005_DKD_test.py Coverage Results" MODIFIED="1547629803792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$YZX.coverage" NAME="YZX Coverage Results" MODIFIED="1547441529443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0034_BJLZFK_test_py.coverage" NAME="Unittests in aut_test_0034_BJLZFK_test.py Coverage Results" MODIFIED="1548038957435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_DLSXGQX.coverage" NAME="aut_test_DLSXGQX Coverage Results" MODIFIED="1543574209942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$YZX1.coverage" NAME="YZX1 Coverage Results" MODIFIED="1547436080461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_DPBJ.coverage" NAME="aut_test_DPBJ Coverage Results" MODIFIED="1544087398797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0019_xxykx_dyqd.coverage" NAME="aut_test_0019_xxykx_dyqd Coverage Results" MODIFIED="1550666581961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0029_YKXWGH_test_py.coverage" NAME="Unittests in aut_test_0029_YKXWGH_test.py Coverage Results" MODIFIED="1546585920391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$TXWK.coverage" NAME="TXWK Coverage Results" MODIFIED="1547193105173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1548663511399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0005_DKD.coverage" NAME="aut_test_0005_DKD Coverage Results" MODIFIED="1548839426830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$set_environment.coverage" NAME="set_environment Coverage Results" MODIFIED="1550667582802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0023_ZNJTWG.coverage" NAME="aut_test_0023_ZNJTWG Coverage Results" MODIFIED="1546048641247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$MXQJF.coverage" NAME="MXQJF Coverage Results" MODIFIED="1547435720109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_YKXWGH.coverage" NAME="aut_test_YKXWGH Coverage Results" MODIFIED="1543566776775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$test0128.coverage" NAME="test0128 Coverage Results" MODIFIED="1548659393192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0014_BJL129.coverage" NAME="aut_test_0014_BJL129 Coverage Results" MODIFIED="1548225992244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$WYNFCP.coverage" NAME="WYNFCP Coverage Results" MODIFIED="1547192788503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0030_WYNFYKX.coverage" NAME="aut_test_0030_WYNFYKX Coverage Results" MODIFIED="1547456315003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0029_YKXWGH.coverage" NAME="aut_test_0029_YKXWGH Coverage Results" MODIFIED="1547442763865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0018_XWSLYWKH.coverage" NAME="aut_test_0018_XWSLYWKH Coverage Results" MODIFIED="1547443259660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0001_TXWK.coverage" NAME="aut_test_0001_TXWK Coverage Results" MODIFIED="1550659390121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_HBSLYZX.coverage" NAME="aut_test_HBSLYZX Coverage Results" MODIFIED="1543567745535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0011_YKX.coverage" NAME="aut_test_0011_YKX Coverage Results" MODIFIED="1547452939575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0024_201XYKDZH.coverage" NAME="aut_test_0024_201XYKDZH Coverage Results" MODIFIED="1547443043863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$ZQCPGKX.coverage" NAME="ZQCPGKX Coverage Results" MODIFIED="1547432719965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$firefox_profile.coverage" NAME="firefox_profile Coverage Results" MODIFIED="1550668221771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/firefox" />
+    <SUITE FILE_PATH="coverage/autoTesting$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1547538431218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_BJLZFK.coverage" NAME="aut_test_BJLZFK Coverage Results" MODIFIED="1545620468930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0031_HBBGSJ_test_py.coverage" NAME="Unittests in aut_test_0031_HBBGSJ_test.py Coverage Results" MODIFIED="1546594274449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_DKD_test_py.coverage" NAME="Unittests in DKD_test.py Coverage Results" MODIFIED="1547111426004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0022_YKX_oldcust.coverage" NAME="aut_test_0022_YKX_oldcust Coverage Results" MODIFIED="1547443156244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$XWSQ.coverage" NAME="XWSQ Coverage Results" MODIFIED="1543299404933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_QJF.coverage" NAME="Unittests in QJF Coverage Results" MODIFIED="1550668323144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0032_HBSLYZX_test_py.coverage" NAME="Unittests in aut_test_0032_HBSLYZX_test.py Coverage Results" MODIFIED="1546589512025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0030_WYNNFYKX.coverage" NAME="aut_test_0030_WYNNFYKX Coverage Results" MODIFIED="1546587009257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0023_fxznjtwg.coverage" NAME="aut_test_0023_fxznjtwg Coverage Results" MODIFIED="1547517558141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0020_xxXy201.coverage" NAME="aut_test_0020_xxXy201 Coverage Results" MODIFIED="1547516532193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0039_DPBJ_test_py.coverage" NAME="Unittests in aut_test_0039_DPBJ_test.py Coverage Results" MODIFIED="1546593102119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0018_XWSLYWKH_py.coverage" NAME="Unittests in aut_test_0018_XWSLYWKH_test.py Coverage Results" MODIFIED="1546583066532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0039_DPBJ.coverage" NAME="aut_test_0039_DPBJ Coverage Results" MODIFIED="1547436199709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0015_MXQJF.coverage" NAME="aut_test_0015_MXQJF Coverage Results" MODIFIED="1548839230675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_WYNNFYKX.coverage" NAME="aut_test_WYNNFYKX Coverage Results" MODIFIED="1543566001332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$TJHB.coverage" NAME="TJHB Coverage Results" MODIFIED="1547112781733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0031_HBBGSJ.coverage" NAME="aut_test_0031_HBBGSJ Coverage Results" MODIFIED="1547441665695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$KDDCP.coverage" NAME="KDDCP Coverage Results" MODIFIED="1548903354763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_KDRH_test_py.coverage" NAME="Unittests in KDRH_test.py Coverage Results" MODIFIED="1547181664745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0017_xxkd.coverage" NAME="aut_test_0017_xxkd Coverage Results" MODIFIED="1550668595902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_aut_test_0033_BJLZFK_test_py.coverage" NAME="Unittests in aut_test_0033_BJLZFK_test.py Coverage Results" MODIFIED="1547179689804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0034_BJLZFK.coverage" NAME="aut_test_0034_BJLZFK Coverage Results" MODIFIED="1548835867842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0003_ZQCPGZX.coverage" NAME="aut_test_0003_ZQCPGZX Coverage Results" MODIFIED="1550666108462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_TJHB_test_py.coverage" NAME="Unittests in TJHB_test.py Coverage Results" MODIFIED="1546569971496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/case" />
+    <SUITE FILE_PATH="coverage/autoTesting$KDRH.coverage" NAME="KDRH Coverage Results" MODIFIED="1547185936900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0007_QJFFXZXX.coverage" NAME="aut_test_0007_QJFFXZXX Coverage Results" MODIFIED="1548901691155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0002_ZQCPGKX.coverage" NAME="aut_test_0002_ZQCPGKX Coverage Results" MODIFIED="1550716840986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0032_HBSLYZX.coverage" NAME="aut_test_0032_HBSLYZX Coverage Results" MODIFIED="1547441526085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+    <SUITE FILE_PATH="coverage/autoTesting$aut_test_0035_ZHDJ.coverage" NAME="aut_test_0035_ZHDJ Coverage Results" MODIFIED="1546050310330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/woyishou/operation" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2141916911">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="45" />
+          <entry key="project.open.time.105" value="1" />
+          <entry key="project.open.time.164" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="3" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="3" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.50" value="2" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.53" value="4" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.56" value="4" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.61" value="2" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.70" value="2" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.75" value="2" />
+          <entry key="project.open.time.76" value="2" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="case名称说明" value="6" />
+          <entry key="conf" value="33" />
+          <entry key="data" value="118" />
+          <entry key="html" value="1" />
+          <entry key="log" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="507" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="158" />
+          <entry key="Python" value="507" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="case名称说明" value="1" />
+          <entry key="conf" value="37" />
+          <entry key="data" value="420" />
+          <entry key="dummy" value="191" />
+          <entry key="py" value="12054" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="649" />
+          <entry key="Python" value="12054" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="auto_dabanben" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="aut_1000_KH_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_1000_KH_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_all_case.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/run_all_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#37#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aut_1000_KH.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_1000_KH.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public_operation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/public_operation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="control.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/control.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_UIbase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/test_UIbase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8648">
+              <caret line="385" column="45" selection-start-line="385" selection-start-column="45" selection-end-line="385" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>custTel</find>
+      <find>orderNo</find>
+      <find>test3</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testcases/HLJ_CRM60/run_all_case.py" />
+        <option value="$PROJECT_DIR$/testcases/HLJ_CRM60/conf/test_Configuration_information.py" />
+        <option value="$PROJECT_DIR$/testcases/HLJ_CRM60/data/cust_info.data" />
+        <option value="$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_1000_KH_test.py" />
+        <option value="$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_1000_KH.py" />
+        <option value="$PROJECT_DIR$/testcases/HLJ_CRM60/operation/public_operation.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutoTest_HLJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest_HLJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest_HLJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest_HLJ" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest_HLJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest_HLJ" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest_HLJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest_HLJ" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+              <item name="HLJ_CRM60" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\工作\思特奇\工作记录\2019\@自动化测试\自动化测试框架改造\Old\Framework\testcases\HLJ_CRM60\operation" />
+      <recent name="H:\工作\思特奇\工作记录\2019\@自动化测试\自动化测试框架改造\Old\Framework\testcases\HLJ_CRM60\case" />
+      <recent name="H:\工作\思特奇\工作记录\2019\@自动化测试\自动化测试框架改造\Old\Framework\testcases\HLJ_CRM60" />
+      <recent name="H:\工作\思特奇\工作记录\2019\@自动化测试\自动化测试框架改造\Old\Framework" />
+      <recent name="H:\工作\思特奇\工作记录\2019\@自动化测试\联通沃易售\autoTesting\testcases\woyishou\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\工作\思特奇\工作记录\2019\@自动化测试\联通沃易售\autoTesting\testcases\woyishou\task" />
+      <recent name="H:\工作\思特奇\工作记录\2018\@自动化测试\autoTesting\testcases\woyishou\operation" />
+      <recent name="H:\工作\思特奇\工作记录\2018\@自动化测试\autoTesting\testcases\demo\case" />
+      <recent name="H:\工作\思特奇\工作记录\2018\@自动化测试\autoTesting\testcases\demo\operation" />
+      <recent name="H:\工作\思特奇\工作记录\2018\@自动化测试\autoTesting\testcases\demo\conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_all_case (1)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="auto_dabanben" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="aut_1000_KH" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoTest_HLJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/HLJ_CRM60/operation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_1000_KH.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_all_case (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoTest_HLJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/HLJ_CRM60" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/HLJ_CRM60/run_all_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_all_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoTest_HLJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\python36\python3.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/demo" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/demo/run_all_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+    </configuration>
+    <configuration name="set_environment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoTest_HLJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/set_environment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_environment_chrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoTest_HLJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_environment_chrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="auto_dabanben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="Unittests in F:/autoTest/autoTesting/public/test_Configuration_information.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/test_Configuration_information.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_legacyInformationCopiedToNew" value="true" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/public/test_Configuration_information.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="auto_dabanben" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="auto_dabanben" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="auto_dabanben" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="auto_dabanben" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests in F:/autoTest/autoTesting/public/test_Configuration_information.py" />
+      <item itemvalue="Python.run_all_case" />
+      <item itemvalue="Python.set_environment" />
+      <item itemvalue="Python.run_all_case (1)" />
+      <item itemvalue="Python.test_environment_chrome" />
+      <item itemvalue="Python.aut_1000_KH" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_all_case (1)" />
+        <item itemvalue="Python.aut_1000_KH" />
+        <item itemvalue="Python.test_environment_chrome" />
+        <item itemvalue="Python.run_all_case" />
+        <item itemvalue="Python.set_environment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9008485-a183-4854-ac06-9c73885453cb" name="Default" comment="" />
+      <created>1515546609430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515546609430</updated>
+    </task>
+    <task id="LOCAL-00001" summary="新建文件">
+      <created>1561627390841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561627390841</updated>
+    </task>
+    <task id="LOCAL-00002" summary="卡在弹窗那了">
+      <created>1561702969723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561702969723</updated>
+    </task>
+    <task id="LOCAL-00003" summary="大致流程已走完，现在需要将功能分的更清晰，需要断言和判断循环">
+      <created>1561714074660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561714074660</updated>
+    </task>
+    <task id="LOCAL-00004" summary="登录CRM的新建窗口开关被打开，输入完用户名和密码，点击确定时需要切换到新窗口">
+      <created>1561971298753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561971298753</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_DKD_test_py - 2019.01.10 at 16h 54m 51s.xml">
+      <configuration name="Unittests in DKD_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_DKD_test_py - 2019.01.10 at 17h 00m 42s.xml">
+      <configuration name="Unittests in DKD_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_DKD_test_py - 2019.01.10 at 17h 14m 30s.xml">
+      <configuration name="Unittests in DKD_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_aut_test_0033_BJLZFK_test_py - 2019.01.11 at 12h 10m 12s.xml">
+      <configuration name="Unittests in aut_test_0033_BJLZFK_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_KDRH_test_py - 2019.01.11 at 12h 27m 14s.xml">
+      <configuration name="Unittests in KDRH_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_KDRH_test_py - 2019.01.11 at 12h 42m 13s.xml">
+      <configuration name="Unittests in KDRH_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_aut_test_0007_QJFFXZXX_test_KDRH_test - 2019.01.16 at 17h 09m 46s.xml">
+      <configuration name="Unittests for aut_test_0007_QJFFXZXX_test.KDRH_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_aut_test_0005_DKD_test_py - 2019.01.16 at 17h 13m 39s.xml">
+      <configuration name="Unittests in aut_test_0005_DKD_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_aut_test_0005_DKD_test_DKD_test - 2019.01.16 at 17h 52m 46s.xml">
+      <configuration name="Unittests for aut_test_0005_DKD_test.DKD_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_aut_test_0034_BJLZFK_test_py - 2019.01.21 at 10h 49m 55s.xml">
+      <configuration name="Unittests in aut_test_0034_BJLZFK_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22108346" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.29721814" side_tool="true" visible="true" weight="0.29252782" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70278186" weight="0.29252782" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.3990461" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Changes" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建文件" />
+    <MESSAGE value="卡在弹窗那了" />
+    <MESSAGE value="大致流程已走完，现在需要将功能分的更清晰，需要断言和判断循环" />
+    <MESSAGE value="登录CRM的新建窗口开关被打开，输入完用户名和密码，点击确定时需要切换到新窗口" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录CRM的新建窗口开关被打开，输入完用户名和密码，点击确定时需要切换到新窗口" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/woyishou/operation/aut_test_0034_BJLZFK.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_1000_KH_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_1000_KH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/public_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test_UIbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8855">
+          <caret line="385" column="45" selection-start-line="385" selection-start-column="45" selection-end-line="385" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_1000_KH_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_1000_KH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_3839_GRKHZLCJ.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/public_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/data/phone_no.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/conf/test_Configuration_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_3839_GRKHZLCJ_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_3839_GRKHZLCJ.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/public_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_3839_GRKHZLCJ_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/data/phone_no.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/conf/test_Configuration_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/case/baidu_select_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_environment_chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_environment_firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/TimeTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/TimeTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/operation/public_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/data/SelectText.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/conf/test_Configuration_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/data/编码说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_3839_GRKHZLCJ_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="93" column="29" lean-forward="true" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/data/phone_no.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/case/baidu_select_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/operation/baidu_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_3839_GRKHZLCJ.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_environment_chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_environment_firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/conf/test_Configuration_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/data/cust_info.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/HLJ_CRM60.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="10142" lean-forward="true" selection-start-line="10142" selection-end-line="10142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/public_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test_UIbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8648">
+          <caret line="385" column="45" selection-start-line="385" selection-start-column="45" selection-end-line="385" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/operation/aut_1000_KH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/HLJ_CRM60/case/aut_1000_KH_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
