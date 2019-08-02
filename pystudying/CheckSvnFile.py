@@ -33,12 +33,34 @@ def deal_excel(file_txt):
 
 	file = xlrd.open_workbook(file_path+'\\'+file_txt)
 	sheet1 = file.sheet_by_name("1、配置管理工作申请表")
+	dept_index = 0
+	name_index = 0
+	num_index = 0
+	plan_index = 0
+	config_index = 0
+	scm_index = 0
 	for i in range(1,sheet1.nrows):
+		sheet1_content = sheet1.cell(i,0).value
+		if  sheet1_content == "*参与部门英文缩写":
+			print(sheet1_content)
+			dept_index = i
+			print(dept_index)
+		elif sheet1_content == "**项目名称":
+			name_index = i
+			pass
+		elif sheet1_content == "*项目序号":
+			num_index = i
+			pass
+		elif sheet1_content == "*配置项标识":
+			config_index = i
+			pass
+		elif sheet1_content == "*引用/共用计划":
+			plan_index = i
+			pass
+		elif sheet1_content == "*SCM_Project名称":
+			scm_index = i
+			pass
 
-		if sheet1.cell(i,0).value == "*参与部门英文缩写"
-
-
-			print()
 	#print(sheet1)
 	pass
 
