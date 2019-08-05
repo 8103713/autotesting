@@ -90,7 +90,7 @@ def deal_excel(file_txt):
 			db_scm = "http://172.18.238.62:9001/svn/"+scm_project1
 
 
-
+	#该写配置项标识了
 
 
 	db_dept = sheet1.cell(dept_index,1).value
