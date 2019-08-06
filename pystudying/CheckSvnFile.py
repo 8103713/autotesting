@@ -1,16 +1,24 @@
 #coding:utf-8
 import xlrd,pymysql
+import svn.remote
 
 db_dept = 0
 db_scm = 0
+db_scm1 = 0
 db_projectId = 0
 db_projectName = 0
 db_creatTime = 0
+
 o_address = '172.16.9.106'
 n_address = '172.18.238.62'
 
+g_FileNamelist = []
+g_FileClasslist = []
+g_FileStatelist = []
+g_FileUrllist = []
+g_ProjectTimelist = []
 
-f_select = 41
+f_select = 31
 if f_select == 10:
 	file_path = "E:\\new_doc\\FY16\\商务项目1"
 	db_table = "project_report_fy16_商务项目1"
@@ -18,23 +26,52 @@ elif f_select == 11:
 	file_path = "E:\\new_doc\\FY16\\研发项目1"
 	db_table = "project_report_fy16_研发项目1"
 elif f_select == 20:
-	file_path = "E:\\new_doc\\FY17\\研发项目1"
-	db_table = "project_report_fy17_研发项目1"
+	file_path = "E:\\new_doc\\FY17\\商务项目1"
+	db_table = "project_report_fy17_商务项目1"
 elif f_select == 21:
 	file_path = "E:\\new_doc\\FY17\\研发项目1"
 	db_table = "project_report_fy17_研发项目1"
 elif f_select == 30:
-	file_path = "E:\\new_doc\\FY18\\研发项目1"
-	db_table = "project_report_fy18_研发项目1"
+	file_path = "E:\\new_doc\\FY18\\商务项目1"
+	db_table = "project_report_fy18_商务项目1"
 elif f_select == 31:
 	file_path = "E:\\new_doc\\FY18\\研发项目1"
 	db_table = "project_report_fy18_研发项目1"
 elif f_select == 40:
-	file_path = "E:\\new_doc\\FY19\\研发项目1"
-	db_table = "project_report_fy19_研发项目1"
+	file_path = "E:\\new_doc\\FY19\\商务项目1"
+	db_table = "project_report_fy19_商务项目1"
 elif f_select == 41:
 	file_path = "E:\\new_doc\\FY19\\研发项目1"
 	db_table = "project_report_fy19_研发项目1"
+
+
+def svn_it(sub):
+	
+
+	pass
+
+
+def deal_sub(sub_value,num):
+	sub_title = {" ", "01项目策划", "02需求分析", "03概要设计", "04详细设计", "05编码及单元测试", "06产品集成", "07现场测试", "08上线准备", "09质量管理", "0A项目管理"}
+	sub_name = sub_title[num]
+	sub_value = sub_value.replace(";;", ";")
+	sub_value = sub_value.replace("；", ";")
+	sub_value = sub_value.replace("\n", ";")
+	sub_value = sub_value.replace(",", ";")
+	sub_value = sub_value.replace("，", ";")
+	for sub in sub_value.split(";"):
+		if len(sub)>1:
+			svn_it(sub)
+			pass
+		else:
+			g_FileNamelist.append(sub)
+			g_FileClasslist.append(sub_title[num])
+			g_FileStatelist.append("未提交")
+			g_FileUrllist.append(" ")
+			g_ProjectTimelist.append(db_creatTime)
+
+	pass
+
 
 
 
@@ -64,7 +101,7 @@ def deal_excel(file_txt):
 		elif sheet1_content == "*配置项标识":
 			config_index = i
 
-		elif sheet1_content == "*引用/共用计划":
+		elif sheet1_content == "*引用/共用计划" or sheet1_content == "*本项目的产品引用/共用计划":
 			scm_project = i
 			#print("scm_project所在行:  ",scm_project)
 			#print("sheet1_content:  ",sheet1_content)
@@ -90,7 +127,18 @@ def deal_excel(file_txt):
 			db_scm = "http://172.18.238.62:9001/svn/"+scm_project1
 
 
-	#该写配置项标识了
+
+	for i in range(1,11):
+		try:
+			sub_value = sheet1.cell(config_index, i).value
+			#print(sub_value)
+			deal_sub(sub_value,i)
+		except IndexError as e:
+			print("------标识项读到头啦，不加异常不走道啊------")
+
+
+
+
 
 
 	db_dept = sheet1.cell(dept_index,1).value
@@ -99,7 +147,8 @@ def deal_excel(file_txt):
 	print("---部门---:  ",db_dept)
 	print("---项目序号---:  ",db_projectId)
 	print("---项目名称---:  ",db_projectName)
-	print("---SVN地址---",db_scm)
+	print("---SVN地址1---： ",db_scm)
+	print("---SVN地址2---： ",db_scm1)
 
 
 
