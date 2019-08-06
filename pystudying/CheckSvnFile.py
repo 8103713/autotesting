@@ -1,6 +1,7 @@
 #coding:utf-8
 import xlrd,pymysql
-import svn.remote
+import urllib.request
+import urllib
 
 db_dept = 0
 db_scm = 0
@@ -46,7 +47,8 @@ elif f_select == 41:
 
 
 def svn_it(sub):
-	
+
+
 
 	pass
 
