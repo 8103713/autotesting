@@ -1,7 +1,11 @@
 #coding:utf-8
 import xlrd,pymysql
-import urllib.request
-import urllib
+import os
+
+tj = 0
+status = 0
+status1 = 0
+status2 = 0
 
 db_dept = 0
 db_scm = 0
@@ -12,12 +16,6 @@ db_creatTime = 0
 
 o_address = '172.16.9.106'
 n_address = '172.18.238.62'
-
-g_FileNamelist = []
-g_FileClasslist = []
-g_FileStatelist = []
-g_FileUrllist = []
-g_ProjectTimelist = []
 
 f_select = 31
 if f_select == 10:
@@ -45,16 +43,66 @@ elif f_select == 41:
 	file_path = "E:\\new_doc\\FY19\\研发项目1"
 	db_table = "project_report_fy19_研发项目1"
 
-
-def svn_it(sub):
-
-
+#写数据库
+def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status):
+	db = pymysql.connect('localhost', 'likai_qec', 'stq@456', 'likai')  # 建立数据库连接
+	cursor = db.cursor()  # 使用 cursor() 方法创建一个游标对象 cursor
+	# SQL 插入语句
+	sql = "INSERT INTO project_report(id,dept,projectname,projectid,scm,number,projecttime,item,state,url) \
+	       VALUES (null,db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status)"
+	sql1 = sql.replace("project_report", db_table)
+#	try:
+		# 执行sql语句
+	cursor.execute(sql1)
+		# 提交到数据库执行
+	db.commit()
+#	except:
+		# 发生错误时回滚
+#		db.rollback()
+	# 关闭数据库连接
+	db.close()
 
 	pass
 
 
+#现在假设检出文件到本地，然后通过本地遍历来找文件是否存在,sub就是已经提交的项
+def svn_it(filename,sub_name):
+	global status1,status2
+	for roots1, dir1, files1 in os.walk("D:\\临时文件\\stq\\"):
+		for fn1 in files1:
+			if (fn1 == filename):
+				status1 = roots1 + fn1
+				#print(status1)
+				break
+	for roots2, dir2, files2 in os.walk("E:\\规则中心\\"):
+		for fn2 in files2:
+			if (fn2 == filename):
+				status2 = roots2 + fn2
+				#print(status2)
+				break
+
+	if(status1 != 0 ):
+		status = status1
+		tj = "已提交"
+		print(tj+":"+status)
+		db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status)
+	elif (status2 != 0):
+		status = status2
+		tj = "已提交"
+		print(tj + ":  " + status)
+		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status)
+
+	else:
+		status = " "
+		tj = "未提交"
+		print(tj + ":" + status)
+		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status)
+
+
+
 def deal_sub(sub_value,num):
-	sub_title = {" ", "01项目策划", "02需求分析", "03概要设计", "04详细设计", "05编码及单元测试", "06产品集成", "07现场测试", "08上线准备", "09质量管理", "0A项目管理"}
+	sub_title = [" ", "01项目策划", "02需求分析", "03概要设计", "04详细设计", "05编码及单元测试", "06产品集成", "07现场测试", "08上线准备", "09质量管理", "0A项目管理"]
+
 	sub_name = sub_title[num]
 	sub_value = sub_value.replace(";;", ";")
 	sub_value = sub_value.replace("；", ";")
@@ -63,18 +111,7 @@ def deal_sub(sub_value,num):
 	sub_value = sub_value.replace("，", ";")
 	for sub in sub_value.split(";"):
 		if len(sub)>1:
-			svn_it(sub)
-			pass
-		else:
-			g_FileNamelist.append(sub)
-			g_FileClasslist.append(sub_title[num])
-			g_FileStatelist.append("未提交")
-			g_FileUrllist.append(" ")
-			g_ProjectTimelist.append(db_creatTime)
-
-	pass
-
-
+			svn_it(sub,sub_name)
 
 
 def deal_excel(file_txt):
@@ -118,22 +155,29 @@ def deal_excel(file_txt):
 	#print("scm_p1:   ", scm_project1)
 
 	if len(scm_project) >4:
-		if (o_address in scm_project) or (n_address in scm_project):
-			db_scm = scm_project
-		else:
-			db_scm = "http://172.18.238.62:9001/svn/"+scm_project
+		db_scm = scm_project
+
 	elif len(scm_project1)>4:
-		if(o_address in scm_project1) or (n_address in scm_project1):
-			db_scm = scm_project1
-		else:
-			db_scm = "http://172.18.238.62:9001/svn/"+scm_project1
+		db_scm = scm_project1
+
+
+	# if len(scm_project) >4:
+	# 	if (o_address in scm_project) or (n_address in scm_project):
+	# 		db_scm = scm_project
+	# 	else:
+	# 		db_scm = "http://172.18.238.62:9001/svn/"+scm_project
+	# elif len(scm_project1)>4:
+	# 	if(o_address in scm_project1) or (n_address in scm_project1):
+	# 		db_scm = scm_project1
+	# 	else:
+	# 		db_scm = "http://172.18.238.62:9001/svn/"+scm_project1
 
 
 
 	for i in range(1,11):
 		try:
 			sub_value = sheet1.cell(config_index, i).value
-			#print(sub_value)
+			print(sub_value)
 			deal_sub(sub_value,i)
 		except IndexError as e:
 			print("------标识项读到头啦，不加异常不走道啊------")
@@ -152,11 +196,6 @@ def deal_excel(file_txt):
 	print("---SVN地址1---： ",db_scm)
 	print("---SVN地址2---： ",db_scm1)
 
-
-
-
-
-	pass
 
 count = 0
 file_name = file_path + "\\file.txt"
