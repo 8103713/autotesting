@@ -1,6 +1,8 @@
 #coding:utf-8
 import xlrd,pymysql
 import os
+from datetime import datetime
+from xlrd import xldate_as_tuple
 
 tj = '0'
 status = '0'
@@ -44,11 +46,11 @@ elif f_select == 41:
 	db_table = "project_report_fy19_研发项目1"
 
 #写数据库
-def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status):
+def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status,dev_en,test_en,pro_en,remark):
 	db = pymysql.connect('localhost', 'likai_qec', 'stq@456', 'likai')  # 建立数据库连接
 	cursor = db.cursor()  # 使用 cursor() 方法创建一个游标对象 cursor
 	# SQL 插入语句
-	sql = "INSERT INTO project_report(id,dept,projectid,projectname,scm,number,projecttime,item,state,url) \
+	sql = "INSERT INTO project_report(id,dept,projectid,projectname,scm,number,projecttime,item,state,url,deven,testen,proen,remark) \
 	       VALUES ("+"null," + "'" + db_dept + "','" +db_projectId + "','" + db_projectName + "','"+ db_scm + "','" + sub_name + "','" + db_creatTime + "','" + filename + "','" + tj + "','" + status+"')"
 	sql1 = sql.replace("project_report", db_table)
 #	try:
@@ -83,17 +85,17 @@ def svn_it(filename,sub_name):
 		status = status1
 		tj = "已提交"
 		print(tj+":"+status)
-		db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status)
+		db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status,dev_en,test_en,pro_en,remark)
 	elif (status2 != 0):
 		status = status2
 		tj = "已提交"
 		print(tj + ":  " + status)
-		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status)
+		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status,dev_en,test_en,pro_en,remark)
 	else:
 		status = " "
 		tj = "未提交"
 		print(tj + ":" + status)
-		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status)
+		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status,dev_en,test_en,pro_en,remark)
 
 
 
@@ -108,9 +110,12 @@ def deal_sub(sub_value,num):
 	sub_value = sub_value.replace("，", ";")
 
 	#遍历配置标识项，将分割后的值继续处理
+	index1 = 0
 	for sub in sub_value.split(";"):
+		index1 =index1+1
 		if len(sub)>1:
 			#遍历本地目录确定地址（遍历两个地址）
+
 			svn_it(sub,sub_name)
 
 
@@ -126,14 +131,31 @@ def deal_excel(file_txt):
 	file = xlrd.open_workbook(file_path+'\\'+file_txt)
 	#打开指定的sheet
 	sheet1 = file.sheet_by_name("1、配置管理工作申请表")
-
+	sheet2 = file.sheet_by_name("环境信息")
 	dept_index = 0
 	name_index = 0
 	id_index = 0
-	time_index = 0
 	scm_project = 0
 	config_index = 0
 	scm_project1 = 0
+
+	develop_index = 0
+	test_index = 0
+	product_index = 0
+	for j in range(1,sheet2.nrows):
+		sheet2_content = sheet2.cell(j,0).value
+		if sheet2_content == "开发环境":
+			develop_index = j
+			pass
+		elif sheet2_content == "测试环境":
+			test_index = j
+			pass
+		elif sheet2_content == "生产环境" or sheet2_content == "部署环境" or sheet2_content == "生产（部署）环境":
+			product_index = j
+			pass
+
+
+
 	#遍历所有行，找关键数据
 	for i in range(1,sheet1.nrows):
 		sheet1_content = sheet1.cell(i,0).value
@@ -146,8 +168,6 @@ def deal_excel(file_txt):
 			id_index = i
 		elif sheet1_content == "*配置项标识":
 			config_index = i
-		elif sheet1_content == "*计划提交时间":
-			time_index= i
 		elif sheet1_content == "*引用/共用计划" or sheet1_content == "*本项目的产品引用/共用计划":
 			scm_project = i
 			#print("scm_project所在行:  ",scm_project)
@@ -172,7 +192,7 @@ def deal_excel(file_txt):
 	db_dept = sheet1.cell(dept_index,1).value
 	db_projectId = sheet1.cell(id_index,1).value
 	db_projectName = sheet1.cell(name_index,1).value
-	#db_creatTime = sheet1.cell(time_index,1).value
+
 	print("---部门---:  ",db_dept)
 	print("---项目序号---:  ",db_projectId)
 	print("---项目名称---:  ",db_projectName)
@@ -189,12 +209,22 @@ def deal_excel(file_txt):
 	# 	else:
 	# 		db_scm = "http://172.18.238.62:9001/svn/"+scm_project1
 
-
+	global db_creatTime
+	db_creatTime = '0'
 	#处理配置项标识中的内容
 	for i in range(1,11):
 		try:
 			sub_value = sheet1.cell(config_index, i).value
-			#print(sub_value)
+			db_creatTime = sheet1.cell((config_index+1), i).value
+			#print("根据他的上一个单元格求的db_creatTime:",db_creatTime)
+			if (sheet1.cell((config_index+1), i).ctype) != 3:
+				db_creatTime = '无'
+
+			else:
+				date = datetime(*xldate_as_tuple(db_creatTime, 0))
+				db_creatTime = date.strftime('%Y/%d/%m')
+				#print("sub_value: ", sub_value)
+				#print("db_creatTime: ", db_creatTime)
 			deal_sub(sub_value,i)
 		except IndexError as e:
 			print("------标识项读到头啦，不加异常不走道啊------")
