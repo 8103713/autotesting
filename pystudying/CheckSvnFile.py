@@ -109,51 +109,56 @@ def deal_sub(sub_value,num):
 	sub_value = sub_value.replace("\n", ";")
 	sub_value = sub_value.replace(",", ";")
 	sub_value = sub_value.replace("，", ";")
+
+	#遍历配置标识项，将分割后的值继续处理
 	for sub in sub_value.split(";"):
 		if len(sub)>1:
 			svn_it(sub,sub_name)
 
 
 def deal_excel(file_txt):
+	"""
+	读取表格
+	:param file_txt: 需要计算的文件名
+	:return:
+	"""
 
+
+	#打开表格
 	file = xlrd.open_workbook(file_path+'\\'+file_txt)
+	#打开指定的sheet
 	sheet1 = file.sheet_by_name("1、配置管理工作申请表")
+
 	dept_index = 0
 	name_index = 0
 	id_index = 0
 	scm_project = 0
 	config_index = 0
 	scm_project1 = 0
+	#遍历所有行，找关键数据
 	for i in range(1,sheet1.nrows):
 		sheet1_content = sheet1.cell(i,0).value
 		if  sheet1_content == "*参与部门英文缩写":
-
 			dept_index = i
-
 		elif sheet1_content == "*项目名称":
 			name_index = i
 			#print("name_index:  ",name_index)
-
 		elif sheet1_content == "*项目序号":
 			id_index = i
-
 		elif sheet1_content == "*配置项标识":
 			config_index = i
-
 		elif sheet1_content == "*引用/共用计划" or sheet1_content == "*本项目的产品引用/共用计划":
 			scm_project = i
 			#print("scm_project所在行:  ",scm_project)
 			#print("sheet1_content:  ",sheet1_content)
-
 		elif sheet1_content == "*SCM_Project名称":
 			scm_project1 = i
-
-
+	#获取project名称
 	scm_project = sheet1.cell(scm_project,3).value
 	#print("scm_p:   ",scm_project)
 	scm_project1 = sheet1.cell(scm_project1,1).value
 	#print("scm_p1:   ", scm_project1)
-
+	#将有数据的存入变量sb_scm
 	if len(scm_project) >4:
 		db_scm = scm_project
 
@@ -173,19 +178,14 @@ def deal_excel(file_txt):
 	# 		db_scm = "http://172.18.238.62:9001/svn/"+scm_project1
 
 
-
+	#处理配置项标识中的内容
 	for i in range(1,11):
 		try:
 			sub_value = sheet1.cell(config_index, i).value
-			print(sub_value)
+			#print(sub_value)
 			deal_sub(sub_value,i)
 		except IndexError as e:
 			print("------标识项读到头啦，不加异常不走道啊------")
-
-
-
-
-
 
 	db_dept = sheet1.cell(dept_index,1).value
 	db_projectId = sheet1.cell(id_index,1).value
@@ -193,14 +193,15 @@ def deal_excel(file_txt):
 	print("---部门---:  ",db_dept)
 	print("---项目序号---:  ",db_projectId)
 	print("---项目名称---:  ",db_projectName)
-	print("---SVN地址1---： ",db_scm)
-	print("---SVN地址2---： ",db_scm1)
+	print("---scm_project名称---： ",db_scm)
 
 
 count = 0
+# txt文件路径
 file_name = file_path + "\\file.txt"
-#file_name = file_name.encode("utf-8")
+#只读打开文件
 f = open(file_name,'r')
+#循环取文件名
 for line in f:
 	file_txt = line.strip()
 	count+=1
