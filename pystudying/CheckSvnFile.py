@@ -48,7 +48,7 @@ def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,file
 	db = pymysql.connect('localhost', 'likai_qec', 'stq@456', 'likai')  # 建立数据库连接
 	cursor = db.cursor()  # 使用 cursor() 方法创建一个游标对象 cursor
 	# SQL 插入语句
-	sql = "INSERT INTO project_report(id,dept,projectname,projectid,scm,number,projecttime,item,state,url) \
+	sql = "INSERT INTO project_report(id,dept,projectid,projectname,scm,number,projecttime,item,state,url) \
 	       VALUES ("+"null," + "'" + db_dept + "','" +db_projectId + "','" + db_projectName + "','"+ db_scm + "','" + sub_name + "','" + db_creatTime + "','" + filename + "','" + tj + "','" + status+"')"
 	sql1 = sql.replace("project_report", db_table)
 #	try:
@@ -61,8 +61,6 @@ def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,file
 #		db.rollback()
 	# 关闭数据库连接
 	db.close()
-
-	pass
 
 
 #现在假设检出文件到本地，然后通过本地遍历来找文件是否存在,sub就是已经提交的项
@@ -91,7 +89,6 @@ def svn_it(filename,sub_name):
 		tj = "已提交"
 		print(tj + ":  " + status)
 		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status)
-
 	else:
 		status = " "
 		tj = "未提交"
@@ -113,6 +110,7 @@ def deal_sub(sub_value,num):
 	#遍历配置标识项，将分割后的值继续处理
 	for sub in sub_value.split(";"):
 		if len(sub)>1:
+			#遍历本地目录确定地址（遍历两个地址）
 			svn_it(sub,sub_name)
 
 
@@ -132,6 +130,7 @@ def deal_excel(file_txt):
 	dept_index = 0
 	name_index = 0
 	id_index = 0
+	time_index = 0
 	scm_project = 0
 	config_index = 0
 	scm_project1 = 0
@@ -147,24 +146,37 @@ def deal_excel(file_txt):
 			id_index = i
 		elif sheet1_content == "*配置项标识":
 			config_index = i
+		elif sheet1_content == "*计划提交时间":
+			time_index= i
 		elif sheet1_content == "*引用/共用计划" or sheet1_content == "*本项目的产品引用/共用计划":
 			scm_project = i
 			#print("scm_project所在行:  ",scm_project)
 			#print("sheet1_content:  ",sheet1_content)
 		elif sheet1_content == "*SCM_Project名称":
 			scm_project1 = i
+
 	#获取project名称
 	scm_project = sheet1.cell(scm_project,3).value
 	#print("scm_p:   ",scm_project)
 	scm_project1 = sheet1.cell(scm_project1,1).value
 	#print("scm_p1:   ", scm_project1)
 	#将有数据的存入变量sb_scm
+	global db_scm
 	if len(scm_project) >4:
 		db_scm = scm_project
 
 	elif len(scm_project1)>4:
 		db_scm = scm_project1
 
+	global db_dept,db_projectId,db_projectName
+	db_dept = sheet1.cell(dept_index,1).value
+	db_projectId = sheet1.cell(id_index,1).value
+	db_projectName = sheet1.cell(name_index,1).value
+	#db_creatTime = sheet1.cell(time_index,1).value
+	print("---部门---:  ",db_dept)
+	print("---项目序号---:  ",db_projectId)
+	print("---项目名称---:  ",db_projectName)
+	print("---scm_project名称---： ",db_scm)
 
 	# if len(scm_project) >4:
 	# 	if (o_address in scm_project) or (n_address in scm_project):
@@ -187,13 +199,6 @@ def deal_excel(file_txt):
 		except IndexError as e:
 			print("------标识项读到头啦，不加异常不走道啊------")
 
-	db_dept = sheet1.cell(dept_index,1).value
-	db_projectId = sheet1.cell(id_index,1).value
-	db_projectName = sheet1.cell(name_index,1).value
-	print("---部门---:  ",db_dept)
-	print("---项目序号---:  ",db_projectId)
-	print("---项目名称---:  ",db_projectName)
-	print("---scm_project名称---： ",db_scm)
 
 
 count = 0
