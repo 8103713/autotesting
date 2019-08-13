@@ -16,6 +16,11 @@ db_projectId = '0'
 db_projectName = '0'
 db_creatTime = '0'
 
+dev_en = '0'
+test_en = '0'
+pro_en = '0'
+remark = '0'
+
 o_address = '172.16.9.106'
 n_address = '172.18.238.62'
 
@@ -51,7 +56,8 @@ def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,file
 	cursor = db.cursor()  # 使用 cursor() 方法创建一个游标对象 cursor
 	# SQL 插入语句
 	sql = "INSERT INTO project_report(id,dept,projectid,projectname,scm,number,projecttime,item,state,url,deven,testen,proen,remark) \
-	       VALUES ("+"null," + "'" + db_dept + "','" +db_projectId + "','" + db_projectName + "','"+ db_scm + "','" + sub_name + "','" + db_creatTime + "','" + filename + "','" + tj + "','" + status+"')"
+	       VALUES ("+"null," + "'" + db_dept + "','" +db_projectId + "','" + db_projectName + "','"+ db_scm + "','" + sub_name + "','" \
+		  + db_creatTime + "','" + filename + "','" + tj + "','" + status+"','" + dev_en+"','" + test_en+"','" + pro_en+"','" + remark+"')"
 	sql1 = sql.replace("project_report", db_table)
 #	try:
 		# 执行sql语句
@@ -142,16 +148,30 @@ def deal_excel(file_txt):
 	develop_index = 0
 	test_index = 0
 	product_index = 0
+	global dev_en,test_en,pro_en,remark
 	for j in range(1,sheet2.nrows):
 		sheet2_content = sheet2.cell(j,0).value
 		if sheet2_content == "开发环境":
-			develop_index = j
+			#develop_index = j
+			dev_en = sheet2.cell(j,1).value
+			dev_en = dev_en.replace("\n","。")
+			remark = sheet2.cell(j,2).value
+			remark = remark.replace("\n","。")
+			print("开发环境：",dev_en)
 			pass
 		elif sheet2_content == "测试环境":
-			test_index = j
+			test_en = sheet2.cell(j, 1).value
+			test_en = test_en.replace("\n", "。")
+			remark = sheet2.cell(j,2).value
+			remark = remark.replace("\n","。")
+			#test_index = j
 			pass
 		elif sheet2_content == "生产环境" or sheet2_content == "部署环境" or sheet2_content == "生产（部署）环境":
-			product_index = j
+			pro_en = sheet2.cell(j, 1).value
+			pro_en = pro_en.replace("\n", "。")
+			remark = sheet2.cell(j,2).value
+			remark = remark.replace("\n","。")
+			#product_index = j
 			pass
 
 
