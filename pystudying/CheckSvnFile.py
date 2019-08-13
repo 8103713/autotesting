@@ -147,9 +147,6 @@ def deal_excel(file_txt):
 	config_index = 0
 	scm_project1 = 0
 
-	develop_index = 0
-	test_index = 0
-	product_index = 0
 	global dev_en,test_en,pro_en,remark1,remark2,remark3
 	for j in range(1,sheet2.nrows):
 		sheet2_content = sheet2.cell(j,0).value
@@ -159,7 +156,7 @@ def deal_excel(file_txt):
 			dev_en = dev_en.replace("\n","。")
 			remark1 = sheet2.cell(j,2).value
 			#remark = remark.replace("\n","。")
-			print("开发环境：",dev_en)
+			#print("开发环境：",dev_en)
 
 		elif sheet2_content == "测试环境":
 			test_en = sheet2.cell(j, 1).value
@@ -168,10 +165,11 @@ def deal_excel(file_txt):
 			#remark = remark.replace("\n","。")
 			#test_index = j
 
-		elif sheet2_content == "生产环境" or sheet2_content == "部署环境" or sheet2_content == "生产（部署）环境":
+		elif sheet2_content == "生产环境" or sheet2_content == "部署环境" or sheet2_content == "生产（部署）环境" or sheet2_content == "研发生产环境":
 			pro_en = sheet2.cell(j, 1).value
 			pro_en = pro_en.replace("\n", "。")
 			remark3 = sheet2.cell(j,2).value
+			print(remark3)
 			#remark = remark.replace("\n","。")
 			#product_index = j
 
