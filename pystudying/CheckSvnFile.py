@@ -156,23 +156,23 @@ def deal_excel(file_txt):
 			dev_en = sheet2.cell(j,1).value
 			dev_en = dev_en.replace("\n","。")
 			remark = sheet2.cell(j,2).value
-			remark = remark.replace("\n","。")
+			#remark = remark.replace("\n","。")
 			print("开发环境：",dev_en)
-			pass
+
 		elif sheet2_content == "测试环境":
 			test_en = sheet2.cell(j, 1).value
 			test_en = test_en.replace("\n", "。")
 			remark = sheet2.cell(j,2).value
-			remark = remark.replace("\n","。")
+			#remark = remark.replace("\n","。")
 			#test_index = j
-			pass
+
 		elif sheet2_content == "生产环境" or sheet2_content == "部署环境" or sheet2_content == "生产（部署）环境":
 			pro_en = sheet2.cell(j, 1).value
 			pro_en = pro_en.replace("\n", "。")
 			remark = sheet2.cell(j,2).value
-			remark = remark.replace("\n","。")
+			#remark = remark.replace("\n","。")
 			#product_index = j
-			pass
+			
 
 
 
