@@ -2,17 +2,17 @@
 import xlrd,pymysql
 import os
 
-tj = 0
-status = 0
-status1 = 0
-status2 = 0
+tj = '0'
+status = '0'
+status1 = '0'
+status2 = '0'
 
-db_dept = 0
-db_scm = 0
-db_scm1 = 0
-db_projectId = 0
-db_projectName = 0
-db_creatTime = 0
+db_dept ='0'
+db_scm = '0'
+db_scm1 = '0'
+db_projectId = '0'
+db_projectName = '0'
+db_creatTime = '0'
 
 o_address = '172.16.9.106'
 n_address = '172.18.238.62'
@@ -49,7 +49,7 @@ def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,file
 	cursor = db.cursor()  # 使用 cursor() 方法创建一个游标对象 cursor
 	# SQL 插入语句
 	sql = "INSERT INTO project_report(id,dept,projectname,projectid,scm,number,projecttime,item,state,url) \
-	       VALUES (null,db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status)"
+	       VALUES ("+"null," + "'" + db_dept + "','" +db_projectId + "','" + db_projectName + "','"+ db_scm + "','" + sub_name + "','" + db_creatTime + "','" + filename + "','" + tj + "','" + status+"')"
 	sql1 = sql.replace("project_report", db_table)
 #	try:
 		# 执行sql语句
