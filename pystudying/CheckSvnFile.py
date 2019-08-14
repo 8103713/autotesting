@@ -75,34 +75,41 @@ def db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,file
 
 #现在假设检出文件到本地，然后通过本地遍历来找文件是否存在,sub就是已经提交的项
 def svn_it(filename,sub_name):
+	filename1 = filename + ".xlsx"
+	#print("filename",filename1)
 	global status1,status2
+	status1 = '0'
+	status2 = '0'
 	for roots1, dir1, files1 in os.walk("D:\\临时文件\\stq\\"):
 		for fn1 in files1:
-			if (fn1 == filename):
+			#print("fn1..........",fn1)
+			if (fn1 == filename1):
 				status1 = roots1 + fn1
-				#print(status1)
-				break
-	for roots2, dir2, files2 in os.walk("E:\\规则中心\\"):
-		for fn2 in files2:
-			if (fn2 == filename):
-				status2 = roots2 + fn2
-				#print(status2)
+				print("status1:....",status1)
 				break
 
-	if(status1 != 0 ):
+	for roots2, dir2, files2 in os.walk("E:\\Program Files\\WeGame\\"):
+		for fn2 in files2:
+			#print("fn2.....",fn2)
+			if (fn2 == filename1):
+				status2 = roots2 + fn2
+				print("status2......",status2)
+				break
+
+	if(status1 != '0' ):
 		status = status1
 		tj = "已提交"
-		print(tj+":"+status)
+		print(tj+"111:"+status)
 		db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status,dev_en,remark1,test_en,remark2,pro_en,remark3)
-	elif (status2 != 0):
+	elif (status2 != '0'):
 		status = status2
 		tj = "已提交"
-		print(tj + ":  " + status)
+		print(tj + "222:  " + status)
 		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status,dev_en,remark1,test_en,remark2,pro_en,remark3)
 	else:
 		status = " "
 		tj = "未提交"
-		print(tj + ":" + status)
+		print(tj + "333:" + status)
 		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status,dev_en,remark1,test_en,remark2,pro_en,remark3)
 
 
@@ -247,7 +254,7 @@ def deal_excel(file_txt):
 				#print("db_creatTime: ", db_creatTime)
 			deal_sub(sub_value,i)
 		except IndexError as e:
-			print("------标识项读到头啦，不加异常不走道啊------")
+			print("-------")
 
 
 
