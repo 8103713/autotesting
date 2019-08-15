@@ -26,7 +26,7 @@ remark3 = '0'
 o_address = '172.16.9.106'
 n_address = '172.18.238.62'
 
-f_select = 31
+f_select = 40
 if f_select == 10:
 	file_path = "E:\\new_doc\\FY16\\商务项目1"
 	db_table = "project_report_fy16_商务项目1"
@@ -85,7 +85,7 @@ def svn_it(filename,sub_name):
 			#print("fn1..........",fn1)
 			if (fn1 == filename1):
 				status1 = roots1 + fn1
-				print("status1:....",status1)
+				#print("status1:....",status1)
 				break
 
 	for roots2, dir2, files2 in os.walk("E:\\Program Files\\WeGame\\"):
@@ -93,23 +93,23 @@ def svn_it(filename,sub_name):
 			#print("fn2.....",fn2)
 			if (fn2 == filename1):
 				status2 = roots2 + fn2
-				print("status2......",status2)
+				#print("status2......",status2)
 				break
 
 	if(status1 != '0' ):
 		status = status1
 		tj = "已提交"
-		print(tj+"111:"+status)
+		#print(tj+"111:"+status)
 		db_sql(db_dept,db_projectId,db_projectName,db_scm,sub_name,db_creatTime,filename,tj,status,dev_en,remark1,test_en,remark2,pro_en,remark3)
 	elif (status2 != '0'):
 		status = status2
 		tj = "已提交"
-		print(tj + "222:  " + status)
+		#print(tj + "222:  " + status)
 		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status,dev_en,remark1,test_en,remark2,pro_en,remark3)
 	else:
 		status = " "
 		tj = "未提交"
-		print(tj + "333:" + status)
+		#print(tj + "333:" + status)
 		db_sql(db_dept, db_projectId, db_projectName, db_scm, sub_name, db_creatTime, filename, tj, status,dev_en,remark1,test_en,remark2,pro_en,remark3)
 
 
@@ -176,7 +176,7 @@ def deal_excel(file_txt):
 			pro_en = sheet2.cell(j, 1).value
 			pro_en = pro_en.replace("\n", "。")
 			remark3 = sheet2.cell(j,2).value
-			print(remark3)
+			#print(remark3)
 			#remark = remark.replace("\n","。")
 			#product_index = j
 
@@ -244,6 +244,7 @@ def deal_excel(file_txt):
 			sub_value = sheet1.cell(config_index, i).value
 			db_creatTime = sheet1.cell((config_index+1), i).value
 			#print("根据他的上一个单元格求的db_creatTime:",db_creatTime)
+			#如果为时间类型返回值为3
 			if (sheet1.cell((config_index+1), i).ctype) != 3:
 				db_creatTime = '无'
 
