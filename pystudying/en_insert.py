@@ -1,6 +1,7 @@
 #coding:utf-8
 import xlrd
 from xlutils.copy import copy
+import xlwt
 
 
 f_select = 41
@@ -24,25 +25,26 @@ elif f_select == 41:
 
 def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 
-	oldwb = xlrd.open_workbook("E:\\new_doc\\F19_研发项目.xls")
-	file2 = copy(oldwb)
-	sheet2 = oldwb.sheet_by_name("fileinfo")
+	rb = xlrd.open_workbook("E:\\new_doc\\F19_研发项目.xls")
+	wb = copy(rb)
+	sheet = wb.get_sheet(0)
+	sheet1 = rb.sheet_by_name("fileinfo")
 
-	k = sheet2.nrows
+	k = sheet1.nrows
 	print("一共多少行：",k)
 	for i in range(2,k):
-		projectId = sheet2.cell(i, 3).value
+		projectId = sheet1.cell(i, 3).value
 		fileId = file_txt[0:6]
 		print("新生成文件中ID是：",projectId)
 		print("文件名中截取的id是：",fileId)
 		if projectId == fileId :
-			sheet2.write(i, 9, dev_en)
-			sheet2.write(i, 10, remark1)
-			sheet2.write(i, 11, test_en)
-			sheet2.write(i, 12, remark2)
-			sheet2.write(i, 13, pro_en)
-			sheet2.write(i, 14, remark3)
-	file2.save("E:\\new_doc\\F19_研发项目.xls")
+			sheet.write(i, 9, dev_en)
+			sheet.write(i, 10, remark1)
+			sheet.write(i, 11, test_en)
+			sheet.write(i, 12, remark2)
+			sheet.write(i, 13, pro_en)
+			sheet.write(i, 14, remark3)
+	wb.save("E:\\new_doc\\F19_研发项目.xls")
 
 
 
