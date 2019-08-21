@@ -32,7 +32,6 @@ def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 	print("备注2：", remark2)
 	print("生产环境：", pro_en)
 	print("备注3：", remark3)
-
 	rb = xlrd.open_workbook("E:\\new_doc\\F19_商务项目.xls")
 	wb = copy(rb)
 	sheet = wb.get_sheet(0)
@@ -60,13 +59,10 @@ def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 
 def deal_excel(file_txt):
 	file = xlrd.open_workbook(file_path+'\\'+file_txt)
-	#打开指定的sheet
 	sheet1 = file.sheet_by_name("环境信息")
-
 
 	global dev_en,test_en,pro_en,remark1,remark2,remark3
 	try:
-
 		for j in range(1, sheet1.nrows):
 			sheet1_content = sheet1.cell(j, 0).value
 
@@ -91,9 +87,7 @@ def deal_excel(file_txt):
 
 count = 0
 file_name = file_path + "\\file.txt"
-#只读打开文件
 f = open(file_name,'r')
-#循环取文件名
 for line in f:
 	file_txt = line.strip()
 	count+=1
