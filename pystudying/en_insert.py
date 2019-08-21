@@ -4,7 +4,7 @@ from xlutils.copy import copy
 import xlwt
 
 
-f_select = 41
+f_select = 40
 if f_select == 10:
 	file_path = "E:\\new_doc\\FY16\\商务项目1"
 elif f_select == 11:
@@ -33,11 +33,10 @@ def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 	print("生产环境：", pro_en)
 	print("备注3：", remark3)
 
-	rb = xlrd.open_workbook("E:\\new_doc\\F19_研发项目.xls")
+	rb = xlrd.open_workbook("E:\\new_doc\\F19_商务项目.xls")
 	wb = copy(rb)
 	sheet = wb.get_sheet(0)
 	sheet1 = rb.sheet_by_name("fileinfo")
-
 	k = sheet1.nrows
 	#print("一共多少行：",k)
 	try:
@@ -45,15 +44,15 @@ def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 			projectId = sheet1.cell(i, 3).value.strip()
 			fileId = file_txt[0:6]
 			if projectId == fileId :
-				print("新生成文件中ID是：", projectId)
-				print("文件名中截取的id是：", fileId)
+				#print("新生成文件中ID是：", projectId)
+				#print("文件名中截取的id是：", fileId)
 				sheet.write(i, 10, dev_en)
 				sheet.write(i, 11, remark1)
 				sheet.write(i, 12, test_en)
 				sheet.write(i, 13, remark2)
 				sheet.write(i, 14, pro_en)
 				sheet.write(i, 15, remark3)
-		wb.save("E:\\new_doc\\F19_研发项目.xls")
+		wb.save("E:\\new_doc\\F19_商务项目.xls")
 
 	except FileNotFoundError:
 		print("-------文件找不到了")
