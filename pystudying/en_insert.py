@@ -4,7 +4,8 @@ from xlutils.copy import copy
 import xlwt
 
 
-f_select = 40
+#需要计算的文件路径（运行程序前先备份原文件）
+f_select = 41
 if f_select == 10:
 	file_path = "E:\\new_doc\\FY16\\商务项目1"
 elif f_select == 11:
@@ -32,6 +33,8 @@ def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 	print("备注2：", remark2)
 	print("生产环境：", pro_en)
 	print("备注3：", remark3)
+
+	#计算后生成的文件
 	rb = xlrd.open_workbook("E:\\new_doc\\F19_商务项目.xls")
 	wb = copy(rb)
 	sheet = wb.get_sheet(0)
@@ -51,6 +54,8 @@ def insert_excel(file_txt,dev_en,remark1,test_en,remark2,pro_en,remark3):
 				sheet.write(i, 13, remark2)
 				sheet.write(i, 14, pro_en)
 				sheet.write(i, 15, remark3)
+
+		#追加信息写入后需保存
 		wb.save("E:\\new_doc\\F19_商务项目.xls")
 
 	except FileNotFoundError:
